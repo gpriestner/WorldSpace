@@ -6,16 +6,22 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "WorldSpace_a1bbebb9"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
-            "mainClass": "${file}",
+            "mainClass": "${file}"
         },
         {
             "type": "java",
             "name": "App",
             "request": "launch",
             "mainClass": "App",
-            //"console": "externalTerminal",
             "projectName": "WorldSpace_f4b4933e"
         }
     ]
